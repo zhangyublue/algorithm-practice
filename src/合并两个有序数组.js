@@ -13,6 +13,7 @@ nums2 = [2,5,6],       n = 3
 
 输出: [1,2,2,3,5,6]
 */
+
 console.log("合并两个有序数组", "*************************");
 
 function mergeArray(data1, data2, data1ElementCount, data2ElementCount) {
