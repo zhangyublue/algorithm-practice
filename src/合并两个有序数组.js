@@ -21,7 +21,6 @@ function mergeArray(data1, data2, data1ElementCount, data2ElementCount) {
   let data2Index = data2ElementCount - 1;
 
   for (let i = data2ElementCount + data1ElementCount - 1; i >= 0; i--) {
-    console.warn(i);
     if (data1Index < 0) {
       data1[i] = data2[data2Index];
       data2Index--;
